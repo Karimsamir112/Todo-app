@@ -211,7 +211,7 @@ function createList() {
 		}
 		
 		//var a, b;
-		a = document.querySelector(".Complete");
+		a = document.querySelectorAll(".Complete");
 		for (b = 0; b < a.length; b++) {
 			a[b].style.display = "block";
 
