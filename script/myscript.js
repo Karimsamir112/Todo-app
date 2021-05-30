@@ -169,7 +169,7 @@ function createList() {
 					create.style.opacity = "0";
 					create.style.visibility = "hidden";
 					create.style.position = "absolute";
-					if (text.style.textDecoration === "none") {
+					if (text.style.textDecoration === "line-through") {
 					    document.querySelector(".item-left").innerHTML = items[0]-- - 2 + " " + "items left";
 				    }
 				};
